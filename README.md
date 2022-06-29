@@ -19,10 +19,7 @@ The technology stack used for implementing this product is: BACK END: Excel, jup
 
 ADVANTAGES:
 
-• The exploratory data analysis of the Spotify dataset provides us with keen insights 
-about music and the different effects of the different kinds of properties of music, this 
-is an advantage in terms of insight and understanding that one gets that cannot be 
-ascertained without doing analysis.
+• The exploratory data analysis of the Spotify dataset provides us with keen insights about music and the different effects of the different kinds of properties of music, this is an advantage in terms of insight and understanding that one gets that cannot be ascertained without doing analysis.
 
 • Our project has the advantage of having the different kinds of attributes and their co-relation with each other, for example, the "popularity" metric of Spotify cannot be understood without an analysis of data related to popular music.
 
@@ -71,6 +68,9 @@ the best model based on key evaluation metric (R2 Score)
 2. Build a content-based 
 Recommendation system that can suggest artists for any user.
 This helps users to listen to songs based on their music preferences.
+
+![Screenshot 2022-06-29 215935](https://user-images.githubusercontent.com/74735963/176488466-f371b1f6-b70b-4d9e-b3fa-f52746002371.png)
+
 As you can see above, year, danceability, energy, loudness and tempo are important features for predicting popularity.
 
 1) Speechiness and Danceability are highly related
@@ -102,12 +102,18 @@ Visualize the popularity of The Beatles’ songs over the year
 - From the dataset creator's own comments, it's likely these are 2000 most 
  popular songs from each selected year.
  
+ ![key vs popularity](https://user-images.githubusercontent.com/74735963/176489051-05d9e299-bd02-4039-9156-9166fec68e80.png)
+
+ ![key](https://user-images.githubusercontent.com/74735963/176488935-cae96798-449e-46cc-b4c7-86f490d2ee16.png)
+
 All the above graphs show keys influence a song. 
  
 1) Like how which key leads to a song being more popular than others.
 2) Which key has more frequency that leads to the song being more likable by 
 the majority of the people.
- 
+
+![plot](https://user-images.githubusercontent.com/74735963/176489118-3bb3e999-f979-4f2d-836f-ed4147a2ec21.png)
+
 Features used in the different genres: notice how acousticness is low in every 
 genre. 
 
